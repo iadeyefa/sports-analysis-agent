@@ -1,0 +1,57 @@
+# --- Node / React ---
+node_modules/
+dist/
+build/
+.next/
+out/
+coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- TypeScript ---
+*.tsbuildinfo
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# --- ML / LLM artifacts ---
+checkpoints/
+models/
+model_cache/
+wandb/
+runs/
+logs/
+*.ckpt
+*.pt
+*.bin
+*.safetensors
+*.onnx
+
+# --- Data ---
+data/raw/
+data/processed/
+*.csv
+*.parquet
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- IDEs ---
+.idea/
+.vscode/
+*.iml
+
+# --- Misc ---
+tmp/
+.cache/
