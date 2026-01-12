@@ -1,7 +1,7 @@
 import { Router, Request, Response } from 'express'
 import { analysisChain } from '../services/llm'
 import { retrieveSimilarGames } from '../services/pinecone'
-import prisma from '../../prisma/prisma'
+import prisma from '../services/prisma'
 
 const router = Router()
 
