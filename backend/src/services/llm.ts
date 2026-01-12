@@ -1,5 +1,5 @@
-import { ChatOllama } from '@langchain/community/chat_models/ollama'
-import { OllamaEmbeddings } from '@langchain/community/embeddings/ollama'
+import { ChatOllama } from '@langchain/ollama'
+import { OllamaEmbeddings } from '@langchain/ollama'
 import { PromptTemplate } from '@langchain/core/prompts'
 import { StringOutputParser } from '@langchain/core/output_parsers'
 import { config } from '../config/env'
