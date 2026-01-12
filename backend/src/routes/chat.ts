@@ -1,10 +1,9 @@
 import { Router, Request, Response } from 'express'
 import { analysisChain } from '../services/llm'
 import { retrieveSimilarGames } from '../services/pinecone'
-import { PrismaClient } from '@prisma/client'
+import prisma from '../../prisma/prisma'
 
 const router = Router()
-const prisma = new PrismaClient()
 
 interface ChatRequest {
     message: string
